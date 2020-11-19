@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TEST CALCULADORA" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-18T01:32:58" hostname="DESKTOP-UTPNU7U" time="0.007">
+  <properties/>
+  <testcase name="tesDivision()" classname="pe.com.arland.cliente1.util.CalculadoraTest" time="0.004"/>
+  <testcase name="testResta()" classname="pe.com.arland.cliente1.util.CalculadoraTest" time="0.001"/>
+  <testcase name="testSuma()" classname="pe.com.arland.cliente1.util.CalculadoraTest" time="0.0"/>
+  <testcase name="testMultiplicacion()" classname="pe.com.arland.cliente1.util.CalculadoraTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

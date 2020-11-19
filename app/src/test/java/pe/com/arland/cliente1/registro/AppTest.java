@@ -3,12 +3,70 @@
  */
 package pe.com.arland.cliente1.registro;
 
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-    @Test void appHasAGreeting() {
+	
+    @Test 
+    void appHasAGreeting() {
         App classUnderTest = new App();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+        System.out.println("1.appHasAGreeting");
     }
+    
+    @Disabled
+    @Test
+    void helloTest() {
+    	System.out.println("2.Hello Gino");
+    }
+    
+    @DisplayName("Test Bye")
+    @Test
+    void byeTest() {
+    	System.out.println("2.Hello Gino");
+    }
+	
+    @BeforeEach
+    void setup() {
+    	System.out.println("*********************************************************");
+    	System.out.println("*****************ETAPA BEFORE EACH***********************");
+    	System.out.println("Configurar antes de cada test...");
+    	System.out.println("*********************************************************");
+    	System.out.println();
+    }
+    
+    @BeforeAll
+    static void setupAll() {
+    	System.out.println("*********************************************************");
+    	System.out.println("*****************ETAPA BEFORE ALL************************");
+    	System.out.println("Configurar todas las pruebas necesarias para los test...");
+    	System.out.println("*********************************************************");
+    	System.out.println();
+    }
+    @AfterEach
+    void setupAfterEach() {
+    	System.out.println("*********************************************************");
+    	System.out.println("*****************ETAPA AFTER EACH***********************");
+    	System.out.println("Configurar despues de cada test...");
+    	System.out.println("*********************************************************");
+    	System.out.println();
+    }
+    
+    @AfterAll
+    static void setupAfterAll() {
+    	System.out.println("*********************************************************");
+    	System.out.println("*****************ETAPA AFTER ALL************************");
+    	System.out.println("Desmontado de todas las pruebas");
+    	System.out.println("*********************************************************");
+    	System.out.println();
+    }
+    
 }

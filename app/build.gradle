@@ -9,8 +9,10 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
+    id 'java'
 }
 
+sourceCompatibility = "1.8"
 repositories {
     // Use JCenter for resolving dependencies.
     jcenter()
@@ -32,6 +34,10 @@ application {
     mainClass = 'pe.com.arland.cliente1.registro.App'
 }
 
+task gino {
+println(sourceCompatibility);
+println("hola")
+}
 tasks.named('test') {
     // Use junit platform for unit tests.
     useJUnitPlatform()
