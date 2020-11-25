@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SERVICIO DE AUTENTICACION" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-20T01:49:06" hostname="DESKTOP-UTPNU7U" time="0.025">
+  <properties/>
+  <testcase name="VALIDACION GENERAL" classname="pe.com.arland.seguridad1.autenticacion.service.AutenticacionServiceTest" time="0.025"/>
+  <system-out><![CDATA[*********************************************************
+*****************ETAPA BEFORE ALL************************
+Configuración inicial para iniciar los test...
+*********************************************************
+
+Cliente existente: Juan
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

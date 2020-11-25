@@ -2,3 +2,5 @@ pe/com/arland/cliente1/registro/AppTest.java
  pe.com.arland.cliente1.registro.AppTest
 pe/com/arland/cliente1/util/CalculadoraTest.java
  pe.com.arland.cliente1.util.CalculadoraTest
+pe/com/arland/seguridad1/autenticacion/service/AutenticacionServiceTest.java
+ pe.com.arland.seguridad1.autenticacion.service.AutenticacionServiceTest

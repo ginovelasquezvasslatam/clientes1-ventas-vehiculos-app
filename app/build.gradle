@@ -40,5 +40,8 @@ println("hola")
 }
 tasks.named('test') {
     // Use junit platform for unit tests.
-    useJUnitPlatform()
+    useJUnitPlatform {
+    includeTags 'General'
+    excludeTags 'Individual'
+    }
 }

@@ -2,3 +2,25 @@ pe/com/arland/cliente1/registro/App.java
  pe.com.arland.cliente1.registro.App
 pe/com/arland/cliente1/util/Calculadora.java
  pe.com.arland.cliente1.util.Calculadora
+pe/com/arland/cliente1/registro/entity/TelefonoEntity.java
+ pe.com.arland.cliente1.registro.entity.TelefonoEntity
+pe/com/arland/cliente1/registro/entity/UsuarioAplicacionEntity.java
+ pe.com.arland.cliente1.registro.entity.UsuarioAplicacionEntity
+pe/com/arland/cliente1/registro/entity/DireccionEntity.java
+ pe.com.arland.cliente1.registro.entity.DireccionEntity
+pe/com/arland/seguridad1/autenticacion/repository/mongodb/ClientesRepositoryImpl.java
+ pe.com.arland.seguridad1.autenticacion.repository.mongodb.ClientesRepositoryImpl
+pe/com/arland/cliente1/registro/entity/ClienteEntity.java
+ pe.com.arland.cliente1.registro.entity.ClienteEntity
+pe/com/arland/seguridad1/autenticacion/repository/ClientesRepository.java
+ pe.com.arland.seguridad1.autenticacion.repository.ClientesRepository
+pe/com/arland/seguridad1/autenticacion/repository/UsuariosAplicacionRepository.java
+ pe.com.arland.seguridad1.autenticacion.repository.UsuariosAplicacionRepository
+pe/com/arland/seguridad1/autenticacion/service/AutenticacionService.java
+ pe.com.arland.seguridad1.autenticacion.service.AutenticacionService
+pe/com/arland/seguridad1/autenticacion/service/impl/AutenticacionServiceImpl.java
+ pe.com.arland.seguridad1.autenticacion.service.impl.AutenticacionServiceImpl
+pe/com/arland/cliente1/registro/entity/PersonaBase.java
+ pe.com.arland.cliente1.registro.entity.PersonaBase
+pe/com/arland/seguridad1/autenticacion/repository/mongodb/UsuariosAplicacionRepositoryImpl.java
+ pe.com.arland.seguridad1.autenticacion.repository.mongodb.UsuariosAplicacionRepositoryImpl
